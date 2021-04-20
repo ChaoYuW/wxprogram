@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/shop-cart/index",
     "pages/logs/logs"
   ],
   "window":{
@@ -19,6 +20,11 @@
       "text": "首页",
       "iconPath": "images/nav/home-off.png",
       "selectedIconPath": "images/nav/home-on.png"
+    },{
+      "pagePath": "pages/shop-cart/index",
+      "iconPath": "images/nav/cart-off.png",
+      "selectedIconPath": "images/nav/cart-on.png",
+      "text": "购物车"
     },{
       "pagePath": "pages/logs/logs",
       "text": "日志",
